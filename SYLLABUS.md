@@ -50,6 +50,7 @@ Notes and examples for every topic are listed under [Unit notes](README.md#unit-
 
 - **Core (01–30):** progressive practice across the main beginner topics.
 - **Extensions (31–32):** optional text-file analysis and a short quiz program for students who finish early or need a small applied task.
+- **Practice bank (80 exercises):** topic-wise extra experiments and paired syntax-debugging sessions in [Practice/README.md](Practice/README.md).
 
 See the [complete experiment index](experiments/README.md).
 

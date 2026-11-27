@@ -48,3 +48,5 @@ g++ -std=c++17 -Wall -Wextra -pedantic -o prog main.cpp
 ```
 
 From the repository root, use `make` to compile the examples and experiments or `make run-exp N=05` to run a numbered experiment.
+
+For 80 additional topic-wise practice problems with paired debugging exercises, see the [Practice bank](../Practice/README.md).

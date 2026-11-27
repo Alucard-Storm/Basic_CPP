@@ -11,6 +11,7 @@ The goal is to help students learn how to **understand a problem, plan a solutio
 3. **Study a unit:** read the [unit notes](#unit-notes) and run the small examples.
 4. **Attempt an experiment:** write your own solution before checking `main.cpp`.
 5. **Test and debug:** use the [debugging labs](debugging/README.md).
+6. **Extra practice:** work through the 80 additional problems and paired syntax-debugging exercises in the [practice bank](Practice/README.md).
 
 ## Unit notes
 
@@ -56,12 +57,14 @@ The schedule is a teaching guide, not a requirement to complete every experiment
 ## Repository layout
 
 ```text
-setup/              Compiler installation instructions
-units/NN-*/         Topic notes and runnable examples
-experiments/NN-*/   Experiment write-up, main.cpp, sample input/output
-debugging/NN-*/     Broken programs, fixes, and explanations
-SYLLABUS.md         Learning outcomes and session plan
-Makefile            Build and run helpers
+setup/                  Compiler installation instructions
+units/NN-*/             Topic notes and runnable examples
+experiments/NN-*/       Experiment write-up, main.cpp, sample input/output
+debugging/NN-*/         Broken programs, fixes, and explanations
+Practice/Experiments/   80 extra practice experiments (Sections A–I)
+Practice/Debug/         80 paired syntax-debugging exercises
+SYLLABUS.md             Learning outcomes and session plan
+Makefile                Build and run helpers
 ```
 
 ## Suggested student workflow
@@ -94,10 +97,29 @@ make clean
 
 ## Experiment collection
 
-- [Core and extension experiments](experiments/README.md)
-- [Debugging labs](debugging/README.md)
+- [Core and extension experiments (01–32)](experiments/README.md)
+- [Debugging labs (01–11)](debugging/README.md)
+- [Practice bank (80 extra experiments + 80 debug exercises)](Practice/README.md)
 - [Course syllabus](SYLLABUS.md)
 - [Compiler setup](setup/README.md)
+
+## Practice bank (Sections A–I)
+
+For additional self-paced practice, [`Practice/`](Practice/README.md) includes **80 extra experiments** (`Practice/Experiments/`) and **80 paired debugging exercises** (`Practice/Debug/`) organized by topic:
+
+| Section | Topic | Experiments | Count |
+|---|---|---:|---:|
+| A | Basic Programming and Operators | 01–12 | 12 |
+| B | Conditional Statements and Decision-Making | 13–22 | 10 |
+| C | Loops and Number-Based Problems | 23–35 | 13 |
+| D | Functions and Recursion | 36–43 | 8 |
+| E | Arrays and Searching/Sorting | 44–54 | 11 |
+| F | Strings | 55–62 | 8 |
+| G | Pointers and References | 63–68 | 6 |
+| H | Object-Oriented Programming | 69–76 | 8 |
+| I | Mini-Projects | 77–80 | 4 |
+
+See the full index in [Practice/README.md](Practice/README.md).
 
 ## Getting the repository
 
