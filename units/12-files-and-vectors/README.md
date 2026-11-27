@@ -48,6 +48,7 @@ g++ -std=c++17 -Wall -Wextra -o prog examples/vector_basic.cpp
 - [Experiment 14: File Handling and Vectors](../../experiments/14-file-and-vector-marks/README.md)
 - [Experiment 30: Expense Summary Using Vector](../../experiments/30-vector-expense-summary/README.md)
 - [Experiment 31: Text File Line and Word Counter](../../experiments/31-file-line-word-counter/README.md)
+- Extra practice: [Practice Bank — Section J (83–84)](../../Practice/README.md) and [80: Inventory Management](../../Practice/Experiments/80_inventory_management.md)
 
 ---
 [← Unit 11](../11-classes/README.md) · [Course home](../../README.md)

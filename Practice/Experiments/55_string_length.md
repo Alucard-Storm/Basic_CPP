@@ -14,13 +14,14 @@ Write a program to find the length of a string without using a built-in length f
 
 ```cpp
 #include <iostream>
+#include <iomanip>
 using namespace std;
 
 int main() {
     char s[100];
     int len = 0;
     cout << "Enter a string: ";
-    cin >> s;
+    cin >> setw(100) >> s;
     while (s[len] != '\0') len++;
     cout << "Length = " << len << endl;
     return 0;

@@ -45,6 +45,7 @@ g++ -std=c++17 -Wall -Wextra -o prog examples/pointers.cpp
 
 - [Experiment 11: Pointers and Swapping](../../experiments/11-pointers-and-swap/README.md)
 - [Experiment 27: References and Pass-by-Reference](../../experiments/27-reference-based-functions/README.md)
+- Extra practice: [Practice Bank — Section G (63–68)](../../Practice/README.md)
 
 ---
 [← Unit 08](../08-strings/README.md) · [Course home](../../README.md) · [Unit 10 →](../10-structs/README.md)

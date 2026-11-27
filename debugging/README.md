@@ -47,4 +47,4 @@ buggy.cpp:6:5: error: expected ',' or ';' before 'int'
 - Check spelling and capital letters.
 - For wrong output: print intermediate values with `cout`, and trace the loop by hand with a small input.
 
-For 80 more syntax-debugging exercises paired with extra practice experiments, see the [Practice bank](../Practice/README.md).
+For 88 more syntax and logic debugging exercises paired with extra practice experiments, see the [Practice bank](../Practice/README.md).

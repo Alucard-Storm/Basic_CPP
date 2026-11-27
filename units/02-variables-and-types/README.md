@@ -53,6 +53,7 @@ g++ -std=c++17 -Wall -Wextra -o prog examples/types.cpp
 - [Experiment 02: Temperature Conversion](../../experiments/02-temperature-conversion/README.md)
 - [Experiment 16: Simple Interest and Discount Calculator](../../experiments/16-simple-interest-and-discount/README.md)
 - [Experiment 32: Mini Project: Multiple-Choice Quiz](../../experiments/32-mini-project-quiz/README.md)
+- Extra practice: [Practice Bank — Section A (01–12)](../../Practice/README.md)
 
 ---
 [← Unit 01](../01-introduction/README.md) · [Course home](../../README.md) · [Unit 03 →](../03-operators-and-io/README.md)

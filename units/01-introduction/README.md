@@ -48,6 +48,7 @@ g++ -std=c++17 -Wall -Wextra -o prog examples/hello.cpp
 ## Experiments for this unit
 
 - [Experiment 01: Hello World and Sum of Two Numbers](../../experiments/01-hello-and-sum/README.md)
+- Extra practice: [Practice Bank — Section A (01–12)](../../Practice/README.md) ([01: Hello World](../../Practice/Experiments/01_hello_world.md))
 
 ---
 [Course home](../../README.md) · [Unit 02 →](../02-variables-and-types/README.md)

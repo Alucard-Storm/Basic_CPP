@@ -15,12 +15,13 @@ Comparing ends of a string
 ```cpp
 #include <iostream>
 #include <cstring>
+#include <iomanip>
 using namespace std;
 
 int main() {
     char s[100];
     cout << "Enter a string: ";
-    cin >> s;
+    cin >> setw(100) >> s;
     int n = strlen(s);
     bool pal = true;
     for (int i = 0; i < n / 2; i++)

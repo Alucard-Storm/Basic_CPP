@@ -39,6 +39,7 @@ g++ -std=c++17 -Wall -Wextra -o prog examples/strings.cpp
 
 - [Experiment 10: String Operations and Palindrome](../../experiments/10-string-operations/README.md)
 - [Experiment 26: String Analyzer](../../experiments/26-string-analyzer/README.md)
+- Extra practice: [Practice Bank — Section F (55–62)](../../Practice/README.md)
 
 ---
 [← Unit 07](../07-arrays/README.md) · [Course home](../../README.md) · [Unit 09 →](../09-pointers-and-references/README.md)

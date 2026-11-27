@@ -48,6 +48,7 @@ g++ -std=c++17 -Wall -Wextra -o prog examples/struct_basic.cpp
 
 - [Experiment 12: Student Records using Structures](../../experiments/12-student-records/README.md)
 - [Experiment 28: Multiple Student Records](../../experiments/28-student-records-array/README.md)
+- Extra practice: [Practice Bank — Section J (81–82)](../../Practice/README.md) and [77: Student Marks Management](../../Practice/Experiments/77_student_marks_management.md)
 
 ---
 [← Unit 09](../09-pointers-and-references/README.md) · [Course home](../../README.md) · [Unit 11 →](../11-classes/README.md)

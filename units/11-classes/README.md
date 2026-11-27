@@ -41,6 +41,7 @@ g++ -std=c++17 -Wall -Wextra -o prog examples/class_basic.cpp
 
 - [Experiment 13: Bank Account using a Class](../../experiments/13-bank-account/README.md)
 - [Experiment 29: Rectangle Class and Encapsulation](../../experiments/29-rectangle-class/README.md)
+- Extra practice: [Practice Bank — Section H (69–76)](../../Practice/README.md) and [79: Simple Banking App](../../Practice/Experiments/79_simple_banking_app.md)
 
 ---
 [← Unit 10](../10-structs/README.md) · [Course home](../../README.md) · [Unit 12 →](../12-files-and-vectors/README.md)

@@ -50,6 +50,7 @@ g++ -std=c++17 -Wall -Wextra -o prog examples/functions.cpp
 - [Experiment 21: Functions and Function Overloading](../../experiments/21-functions-and-overloading/README.md)
 - [Experiment 22: Recursion: Sum and Factorial](../../experiments/22-recursion-practice/README.md)
 - [Experiment 27: References and Pass-by-Reference](../../experiments/27-reference-based-functions/README.md)
+- Extra practice: [Practice Bank — Section D (36–43)](../../Practice/README.md)
 
 ---
 [← Unit 05](../05-loops/README.md) · [Course home](../../README.md) · [Unit 07 →](../07-arrays/README.md)

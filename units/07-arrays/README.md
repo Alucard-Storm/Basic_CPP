@@ -45,6 +45,7 @@ g++ -std=c++17 -Wall -Wextra -o prog examples/arrays.cpp
 - [Experiment 24: Selection Sort](../../experiments/24-selection-sort/README.md)
 - [Experiment 25: Matrix Transpose and Diagonal Sums](../../experiments/25-matrix-transpose-diagonal/README.md)
 - [Experiment 32: Mini Project: Multiple-Choice Quiz](../../experiments/32-mini-project-quiz/README.md)
+- Extra practice: [Practice Bank — Section E (44–54)](../../Practice/README.md) and [Logic Debug 02](../../Practice/Debug/Logic_02_negative_max_init.md)
 
 ---
 [← Unit 06](../06-functions/README.md) · [Course home](../../README.md) · [Unit 08 →](../08-strings/README.md)

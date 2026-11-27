@@ -8,7 +8,7 @@ Debug the program below. It is the solution to: *Write a program to check whethe
 
 ## Instructions
 
-1. Copy the code into a `.cpp` file and compile it with `g++ file.cpp -o file`.
+1. Copy the code into a `.cpp` file and compile it with `g++ -std=c++17 -Wall -Wextra file.cpp -o file`.
 2. Read each compiler error message and locate the faulty line.
 3. Fix all the syntax errors (there are **2** deliberate error(s)).
 4. Run the program and compare its output with the expected output below.
@@ -17,7 +17,6 @@ Debug the program below. It is the solution to: *Write a program to check whethe
 
 ```cpp
 #include <iostream>
-#include <cmath>
 using namespace std;
 
 int main() {
@@ -28,7 +27,10 @@ int main() {
     while (temp > 0) { digits++; temp /= 10; }
     temp = n;
     while temp > 0) {
-        sum += pow(temp % 10 digits);
+        int d = temp % 10;
+        int p = 1;
+        for (int i = 0; i < digits; i++) p *= d;
+        sum += p
         temp /= 10;
     }
     if (sum == n)
@@ -57,6 +59,6 @@ Enter a number: 153 is an Armstrong number
 <summary>Show errors</summary>
 
 1. Missing parenthesis
-2. Missing comma in function call
+2. Missing semicolon
 
 </details>

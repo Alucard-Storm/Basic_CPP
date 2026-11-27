@@ -1,11 +1,14 @@
 # Practice Bank
 
-Alongside the 32 main [experiments](../experiments/README.md) and 11 [debugging labs](../debugging/README.md), this folder provides **80 extra practice experiments** ([`Experiments/`](Experiments/)) paired one-to-one with **80 syntax-debugging exercises** ([`Debug/`](Debug/)).
+Alongside the 32 main [experiments](../experiments/README.md) and 11 [debugging labs](../debugging/README.md), this folder provides **84 extra practice experiments** ([`Experiments/`](Experiments/README.md)) paired one-to-one with **84 syntax-debugging exercises**, plus **4 logic-bug exercises** ([`Debug/`](Debug/README.md)).
+
+> **How this differs from `experiments/`:** The main [experiments (01–32)](../experiments/README.md) use the full lab-record format (*Aim → Theory → Algorithm → Program → Sample I/O → Result → Viva Questions*). The `Practice/` bank uses a lighter drill format (*Aim → Concepts Used → Program → Sample Run → Result*) for extra coding and debugging practice.
 
 ## How to use these exercises
 
 1. **Practice experiments (`Experiments/`):** Read the **Aim** and **Concepts Used**, design your own solution, and test it before looking at the reference **Program**.
-2. **Debug exercises (`Debug/`):** Copy the **Buggy Code** into a `.cpp` file, compile it with warnings enabled, read the compiler errors, and fix the deliberate syntax errors before checking the **Answer Key**.
+2. **Syntax-debugging exercises (`Debug_01`–`Debug_84`):** Copy the **Buggy Code** into a `.cpp` file, compile it with warnings enabled, read the compiler errors, and fix the deliberate syntax errors before checking the **Answer Key**.
+3. **Logic-debugging exercises (`Logic_01`–`Logic_04`):** These compile cleanly but print the wrong output. Trace the code with the sample input to spot the mistake—and try the main [logic debugging labs (09–11)](../debugging/README.md) as well.
 
 Compile any solution with:
 
@@ -27,6 +30,7 @@ g++ -std=c++17 -Wall -Wextra -pedantic -o prog file.cpp
 | G | Pointers and References | 63–68 | 6 | [Unit 09](../units/09-pointers-and-references/README.md) |
 | H | Object-Oriented Programming | 69–76 | 8 | [Unit 11](../units/11-classes/README.md) |
 | I | Mini-Projects | 77–80 | 4 | [Unit 10](../units/10-structs/README.md), [Unit 11](../units/11-classes/README.md), [Unit 12](../units/12-files-and-vectors/README.md) |
+| J | Structures and File Handling | 81–84 | 4 | [Unit 10](../units/10-structs/README.md), [Unit 12](../units/12-files-and-vectors/README.md) |
 
 ## Section A — Basic Programming and Operators
 
@@ -73,7 +77,7 @@ g++ -std=c++17 -Wall -Wextra -pedantic -o prog file.cpp
 | 29 | [Palindrome Number](Experiments/29_palindrome_number.md) | Reversing and comparing | [Debug 29](Debug/Debug_29_palindrome_number.md) |
 | 30 | [Prime Check](Experiments/30_prime_check.md) | Loop with `break` and flag | [Debug 30](Debug/Debug_30_prime_check.md) |
 | 31 | [Primes In Range](Experiments/31_primes_in_range.md) | Nested loops | [Debug 31](Debug/Debug_31_primes_in_range.md) |
-| 32 | [Armstrong Number](Experiments/32_armstrong_number.md) | `pow()`, digit counting | [Debug 32](Debug/Debug_32_armstrong_number.md) |
+| 32 | [Armstrong Number](Experiments/32_armstrong_number.md) | Digit counting, integer power loop | [Debug 32](Debug/Debug_32_armstrong_number.md) |
 | 33 | [Gcd Lcm](Experiments/33_gcd_lcm.md) | Euclid's algorithm | [Debug 33](Debug/Debug_33_gcd_lcm.md) |
 | 34 | [Star Patterns](Experiments/34_star_patterns.md) | Nested loops | [Debug 34](Debug/Debug_34_star_patterns.md) |
 | 35 | [Number Patterns](Experiments/35_number_patterns.md) | Nested loops with numbers | [Debug 35](Debug/Debug_35_number_patterns.md) |
@@ -152,3 +156,23 @@ g++ -std=c++17 -Wall -Wextra -pedantic -o prog file.cpp
 | 78 | [Number Utility Menu](Experiments/78_number_utility_menu.md) | Menu-driven program with `do-while` and `switch` | [Debug 78](Debug/Debug_78_number_utility_menu.md) |
 | 79 | [Simple Banking App](Experiments/79_simple_banking_app.md) | Classes, objects, menu loop | [Debug 79](Debug/Debug_79_simple_banking_app.md) |
 | 80 | [Inventory Management](Experiments/80_inventory_management.md) | Vector of structs, menu loop | [Debug 80](Debug/Debug_80_inventory_management.md) |
+
+## Section J — Structures and File Handling
+
+| No. | Experiment | Concepts Used | Debug Exercise |
+|---:|---|---|---|
+| 81 | [Book Record Using Struct](Experiments/81_book_struct.md) | `struct`, member access (`.`) | [Debug 81](Debug/Debug_81_book_struct.md) |
+| 82 | [Employee Records Array](Experiments/82_employee_struct_array.md) | Array of `struct`, finding maximum record | [Debug 82](Debug/Debug_82_employee_struct_array.md) |
+| 83 | [File Write and Read Numbers](Experiments/83_file_write_read_numbers.md) | `<fstream>`, `ofstream`, `ifstream`, file error checking | [Debug 83](Debug/Debug_83_file_write_read_numbers.md) |
+| 84 | [File Line and Word Count](Experiments/84_file_line_word_count.md) | `<fstream>`, `<sstream>`, `getline`, `istringstream` | [Debug 84](Debug/Debug_84_file_line_word_count.md) |
+
+## Logic-Bug Debug Practice
+
+These programs compile without errors but produce incorrect output. For additional logic-bug labs with `buggy.cpp`/`fixed.cpp`, see [debugging/09–11](../debugging/README.md).
+
+| No. | Exercise | Bug concept | Related section |
+|---:|---|---|---|
+| L01 | [Integer Division in Temperature Conversion](Debug/Logic_01_integer_division.md) | `9 / 5` integer truncation | Section A |
+| L02 | [Initial Maximum Value for Negative Numbers](Debug/Logic_02_negative_max_init.md) | Initializing max to `0` | Section E |
+| L03 | [Off-by-One Loop Bound](Debug/Logic_03_off_by_one_loop.md) | `<` vs `<=` loop limit | Section C |
+| L04 | [Accumulator Initialized to Zero](Debug/Logic_04_factorial_zero_init.md) | Product accumulator starting at `0` | Section C |

@@ -15,14 +15,15 @@ Write a program to concatenate and compare two strings.
 ```cpp
 #include <iostream>
 #include <cstring>
+#include <iomanip>
 using namespace std;
 
 int main() {
     char a[100], b[50];
     cout << "Enter first string: ";
-    cin >> a;
+    cin >> setw(50) >> a;
     cout << "Enter second string: ";
-    cin >> b;
+    cin >> setw(50) >> b;
     if (strcmp(a, b) == 0)
         cout << "Strings are equal" << endl;
     else

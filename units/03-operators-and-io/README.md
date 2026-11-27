@@ -42,6 +42,7 @@ g++ -std=c++17 -Wall -Wextra -o prog examples/operators.cpp
 
 - [Experiment 15: Operators and Expression Evaluation](../../experiments/15-operators-and-expressions/README.md)
 - [Experiment 16: Simple Interest and Discount Calculator](../../experiments/16-simple-interest-and-discount/README.md)
+- Extra practice: [Practice Bank — Section A (01–12)](../../Practice/README.md) and [Logic Debug 01](../../Practice/Debug/Logic_01_integer_division.md)
 
 ---
 [← Unit 02](../02-variables-and-types/README.md) · [Course home](../../README.md) · [Unit 04 →](../04-decisions/README.md)

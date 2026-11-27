@@ -8,13 +8,12 @@ Write a program to check whether a number is an Armstrong number.
 
 ## Concepts Used
 
-`pow()`, digit counting
+Digit counting, integer power loop
 
 ## Program
 
 ```cpp
 #include <iostream>
-#include <cmath>
 using namespace std;
 
 int main() {
@@ -25,7 +24,10 @@ int main() {
     while (temp > 0) { digits++; temp /= 10; }
     temp = n;
     while (temp > 0) {
-        sum += pow(temp % 10, digits);
+        int d = temp % 10;
+        int p = 1;
+        for (int i = 0; i < digits; i++) p *= d;
+        sum += p;
         temp /= 10;
     }
     if (sum == n)

@@ -8,7 +8,7 @@ Debug the program below. It is the solution to: *Write a program to reverse a st
 
 ## Instructions
 
-1. Copy the code into a `.cpp` file and compile it with `g++ file.cpp -o file`.
+1. Copy the code into a `.cpp` file and compile it with `g++ -std=c++17 -Wall -Wextra file.cpp -o file`.
 2. Read each compiler error message and locate the faulty line.
 3. Fix all the syntax errors (there are **2** deliberate error(s)).
 4. Run the program and compare its output with the expected output below.
@@ -18,12 +18,13 @@ Debug the program below. It is the solution to: *Write a program to reverse a st
 ```cpp
 #include <iostream>
 #include <cstrng>
+#include <iomanip>
 using namespace std;
 
 int main() {
     char s[100];
     cout << "Enter a string: ";
-    cin >> s;
+    cin >> setw(100) >> s;
     int n = strlen(s);
     for (int i = 0, j = n - 1; i < j; i++, j--) {
         char t = s[i]

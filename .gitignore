@@ -7,4 +7,5 @@ a.out
 # files written by the example programs when run
 numbers.txt
 marks.txt
+notes.txt
 .vscode/

@@ -11,7 +11,7 @@ The goal is to help students learn how to **understand a problem, plan a solutio
 3. **Study a unit:** read the [unit notes](#unit-notes) and run the small examples.
 4. **Attempt an experiment:** write your own solution before checking `main.cpp`.
 5. **Test and debug:** use the [debugging labs](debugging/README.md).
-6. **Extra practice:** work through the 80 additional problems and paired syntax-debugging exercises in the [practice bank](Practice/README.md).
+6. **Extra practice:** work through the 84 additional problems and 88 debugging exercises in the [practice bank](Practice/README.md).
 
 ## Unit notes
 
@@ -61,8 +61,8 @@ setup/                  Compiler installation instructions
 units/NN-*/             Topic notes and runnable examples
 experiments/NN-*/       Experiment write-up, main.cpp, sample input/output
 debugging/NN-*/         Broken programs, fixes, and explanations
-Practice/Experiments/   80 extra practice experiments (Sections A–I)
-Practice/Debug/         80 paired syntax-debugging exercises
+Practice/Experiments/   84 extra practice experiments (Sections A–J)
+Practice/Debug/         88 debugging exercises (84 syntax + 4 logic)
 SYLLABUS.md             Learning outcomes and session plan
 Makefile                Build and run helpers
 ```
@@ -99,13 +99,13 @@ make clean
 
 - [Core and extension experiments (01–32)](experiments/README.md)
 - [Debugging labs (01–11)](debugging/README.md)
-- [Practice bank (80 extra experiments + 80 debug exercises)](Practice/README.md)
+- [Practice bank (84 extra experiments + 88 debug exercises)](Practice/README.md)
 - [Course syllabus](SYLLABUS.md)
 - [Compiler setup](setup/README.md)
 
-## Practice bank (Sections A–I)
+## Practice bank (Sections A–J)
 
-For additional self-paced practice, [`Practice/`](Practice/README.md) includes **80 extra experiments** (`Practice/Experiments/`) and **80 paired debugging exercises** (`Practice/Debug/`) organized by topic:
+For additional self-paced practice, [`Practice/`](Practice/README.md) includes **84 extra experiments** (`Practice/Experiments/`) and **88 debugging exercises** (`Practice/Debug/`: 84 syntax + 4 logic) organized by topic:
 
 | Section | Topic | Experiments | Count |
 |---|---|---:|---:|
@@ -118,13 +118,14 @@ For additional self-paced practice, [`Practice/`](Practice/README.md) includes *
 | G | Pointers and References | 63–68 | 6 |
 | H | Object-Oriented Programming | 69–76 | 8 |
 | I | Mini-Projects | 77–80 | 4 |
+| J | Structures and File Handling | 81–84 | 4 |
 
-See the full index in [Practice/README.md](Practice/README.md).
+See the full index (including the 4 logic-bug exercises) in [Practice/README.md](Practice/README.md).
 
 ## Getting the repository
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/Alucard-Storm/Basic_CPP.git
 cd Basic_CPP
 ```
 
